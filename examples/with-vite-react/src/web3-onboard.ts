@@ -8,6 +8,7 @@ import portisModule from '@web3-onboard/portis'
 import torusModule from '@web3-onboard/torus'
 import trezorModule from '@web3-onboard/trezor'
 import walletConnectModule from '@web3-onboard/walletconnect'
+import unipassModule from '@web3-onboard/unipass'
 import coinbaseModule from '@web3-onboard/coinbase'
 import magicModule from '@web3-onboard/magic'
 import dcentModule from '@web3-onboard/dcent'
@@ -72,6 +73,14 @@ const magic = magicModule({
   apiKey: 'pk_live_02207D744E81C2BA'
 })
 
+const unipass = unipassModule({
+  chainId: 80001,
+  returnEmail: true,
+  appSettings: {
+    appName: 'web3-onboard test for unipass'
+  }
+})
+
 export default init({
   // An array of wallet modules that you would like to be presented to the user to select from when connecting a wallet.
   wallets: [
@@ -91,7 +100,8 @@ export default init({
     mew,
     talltHoWalletSdk,
     web3auth,
-    sequence
+    sequence,
+    unipass
   ],
   // An array of Chains that your app supports
   chains: [
