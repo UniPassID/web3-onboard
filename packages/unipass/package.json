@@ -30,6 +30,7 @@
     "pending",
     "confirmed",
     "Injected Wallet",
+    "UniPass",
     "Crypto",
     "Crypto Wallet"
   ],
@@ -59,7 +60,7 @@
   },
   "dependencies": {
     "@ethersproject/providers": "^5.5.0",
-    "@unipasswallet/ethereum-provider": "^0.0.13-alpha.1",
+    "@unipasswallet/ethereum-provider": "^0.0.13-alpha.4",
     "@web3-onboard/common": "^2.2.3",
     "rxjs": "^7.5.2"
   }
