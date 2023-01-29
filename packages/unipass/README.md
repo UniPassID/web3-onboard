@@ -16,13 +16,11 @@ or
 
 ## Parameters
 
-- `options.connect` -- Connection options for the default networkId, name of the app.
+- `options.chainId` -- Default chainId.
 
-- `options.connect.chainId` -- Default chainId.
+- `options.returnEmail` -- If true, email will return when connect function been called.
 
-- `options.connect.returnEmail` -- If true, email will return when connect function been called.
-
-- `options.connect.appSettings` -- Config appName, appIcon and theme.
+- `options.appSettings` -- Config appName, appIcon and theme.
 
 ## Usage
 
