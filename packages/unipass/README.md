@@ -1,24 +1,28 @@
 # @web3-onboard/unipass
 
-## UniPass is a non-custodial smart contract wallet that provides a seedless and gasless user experience
+## web3-onboard for the [UniPass](https://unipass.vip/) wallet.
 
-### Install
+### Installation
 
-`npm i @web3-onboard/core @web3-onboard/unipass`
-
-## Options
-
-```typescript
-type UniPassProviderOptions = {
-  chainId: number;
-  returnEmail: boolean;
-  appSettings?: {
-    appName?: string;
-    appIcon?: string;
-    theme?: UniPassTheme;
-  };
-}
+```shell
+npm i @web3-onboard/core @web3-onboard/unipass
 ```
+
+or
+
+```shell
+  yarn add @web3-onboard/core @web3-onboard/unipass
+```
+
+## Parameters
+
+- `options.connect` -- Connection options for the default networkId, name of the app.
+
+- `options.connect.chainId` -- Default chainId.
+
+- `options.connect.returnEmail` -- If true, email will return when connect function been called.
+
+- `options.connect.appSettings` -- Config appName, appIcon and theme.
 
 ## Usage
 
@@ -31,11 +35,11 @@ const unipass = unipassModule({
   chainId: 80001,
   returnEmail: true,
   appSettings: {
-    appName: "web3-onboard test for unipass",
-    theme: UniPassTheme.DARK,
-  },
-});
-
+    appName: 'web3-onboard test for unipass',
+    appIcon: 'your icon url',
+    theme: UniPassTheme.DARK
+  }
+})
 
 const onboard = Onboard({
   // ... other Onboard options
@@ -48,3 +52,7 @@ const onboard = Onboard({
 const connectedWallets = await onboard.connectWallet()
 console.log(connectedWallets)
 ```
+
+## Example
+
+A demo app for web3-onboard is available [here](https://up-web3-onboard-demo.vercel.app/)
