@@ -1,6 +1,6 @@
 {
   "name": "@unipasswallet/web3-onboard",
-  "version": "0.0.1-alpha.6",
+  "version": "1.0.1",
   "description": "UniPass is a non-custodial smart contract wallet that provides a seedless and gasless user experience",
   "keywords": [
     "Ethereum",
@@ -60,7 +60,7 @@
   },
   "dependencies": {
     "@ethersproject/providers": "^5.5.0",
-    "@unipasswallet/ethereum-provider": "0.0.13-alpha.6",
+    "@unipasswallet/ethereum-provider": "^1.0.1",
     "@web3-onboard/common": "^2.2.3",
     "rxjs": "^7.5.2"
   }
