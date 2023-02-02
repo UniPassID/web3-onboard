@@ -1,15 +1,15 @@
-# @web3-onboard/unipass
+# @unipasswallet/web3-onboard
 
 ### Installation
 
 ```shell
-npm i @web3-onboard/core @web3-onboard/unipass
+npm i @web3-onboard/core @unipasswallet/web3-onboard
 ```
 
 or
 
 ```shell
-  yarn add @web3-onboard/core @web3-onboard/unipass
+  yarn add @web3-onboard/core @unipasswallet/web3-onboard
 ```
 
 ## Parameters
@@ -24,7 +24,7 @@ or
 
 ```typescript
 import Onboard from '@web3-onboard/core'
-import unipassModule from '@web3-onboard/unipass'
+import unipassModule from '@unipasswallet/web3-onboard'
 
 // initialize the module with options
 const unipass = unipassModule({
