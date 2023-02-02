@@ -1,7 +1,5 @@
 # @web3-onboard/unipass
 
-## web3-onboard for the [UniPass](https://unipass.vip/) wallet.
-
 ### Installation
 
 ```shell
