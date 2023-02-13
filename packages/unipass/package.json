@@ -60,7 +60,7 @@
   },
   "dependencies": {
     "@ethersproject/providers": "^5.5.0",
-    "@unipasswallet/ethereum-provider": "^1.0.1",
+    "@unipasswallet/ethereum-provider": "^1.1.0",
     "@web3-onboard/common": "^2.2.3",
     "rxjs": "^7.5.2"
   }
