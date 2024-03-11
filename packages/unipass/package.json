@@ -36,11 +36,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/blocknative/web3-onboard.git",
+    "url": "https://github.com/UniPassID/web3-onboard.git",
     "directory": "packages/unipass"
   },
-  "homepage": "https://onboard.blocknative.com",
-  "bugs": "https://github.com/blocknative/web3-onboard/issues",
+  "homepage": "https://github.com/UniPassID/web3-onboard.git",
+  "bugs": "https://github.com/UniPassID/web3-onboard.git",
   "module": "dist/index.js",
   "browser": "dist/index.js",
   "main": "dist/index.js",
